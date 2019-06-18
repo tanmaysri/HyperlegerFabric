@@ -11,19 +11,19 @@ chmod u+x prereqs-ubuntu.sh
 You will now need to install the Hyperledger Composer components:
 
 Install the Composer Command Line Interface (CLI):
- npm install -g composer-cli
+sudo npm install -g composer-cli
  
 Install the Composer REST Server:
-npm install -g composer-rest-server
+sudo npm install -g composer-rest-server
 
 Install Composer Playground:
-npm install -g  composer-playground
+sudo npm install -g  composer-playground
 
 Install Yeoman (it will enable you to create empty or populated sample blockchain networks and web applications):
- sudo npm install -g yo
+sudo npm install -g yo
 
 Install the Hyperledger Composer generator for Yeoman:
-npm install -g generator-hyperledger-composer
+sudo npm install -g generator-hyperledger-composer
 
 
 Install the Hyperledger Fabric development server, which will act as the backend for your Hyperledger Composer work:
